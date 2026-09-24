@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhanu AI — Interactive Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">BHANU<span>AI</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home" class="hero">
+    <section class="hero-copy">
+      <p class="eyebrow">AI CREATOR • DIGITAL PORTFOLIO</p>
+      <h1>Hi, I'm <span>Bhanu.</span><br>Welcome to my world.</h1>
+      <p class="intro">AI images, AI videos, creative experiments and digital projects — all in one place.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#work">View My Work</a>
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+      <p class="tip">Move your cursor around the character 👀</p>
+    </section>
+
+    <section class="character-card" id="characterCard" aria-label="Interactive character">
+      <div class="glow"></div>
+      <div class="character-wrap" id="characterWrap">
+        <!-- Replace character.mp4 with your AI character video.
+             If you do not have a video yet, the fallback emoji remains visible. -->
+        <video id="characterVideo" class="character-video" autoplay muted loop playsinline>
+          <source src="character.mp4" type="video/mp4">
+        </video>
+        <div class="fallback-character" id="fallbackCharacter">👩🏻‍💻</div>
+        <div class="speech" id="speech">Hello! 👋</div>
+      </div>
+      <div class="laptop">BHANU AI</div>
+    </section>
+  </main>
+
+  <section id="about" class="section">
+    <p class="eyebrow">ABOUT</p>
+    <h2>Creative work with AI & technology.</h2>
+    <p>Replace this text with your own introduction, skills and story.</p>
+  </section>
+
+  <section id="work" class="section cards">
+    <div class="project">
+      <span>01</span>
+      <h3>AI Images</h3>
+      <p>Photorealistic portraits, creative visuals and social-media artwork.</p>
+    </div>
+    <div class="project">
+      <span>02</span>
+      <h3>AI Videos</h3>
+      <p>Short-form AI video concepts, reels and cinematic experiments.</p>
+    </div>
+    <div class="project">
+      <span>03</span>
+      <h3>Web Projects</h3>
+      <p>Interactive pages and creative digital experiences.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="eyebrow">CONTACT</p>
+    <h2>Let's create something.</h2>
+    <p>Replace these links with your Instagram, Facebook, YouTube or email.</p>
+    <div class="buttons">
+      <a class="btn primary" href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a class="btn" href="mailto:you@example.com">Email</a>
+    </div>
+  </section>
+
+  <footer>© 2026 Bhanu AI • Built with HTML, CSS & JavaScript</footer>
+  <script src="script.js"></script>
+</body>
+</html>
