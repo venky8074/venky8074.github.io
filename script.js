@@ -3,7 +3,7 @@ const wrap = document.getElementById("characterWrap");
 const speech = document.getElementById("speech");
 const video = document.getElementById("characterVideo");
 
-const normalVideo = "character.mp4";
+const reactionVideo = "loop.mp4?v=2";
 const reactionVideo = "loop.mp4";
 
 let reacting = false;
